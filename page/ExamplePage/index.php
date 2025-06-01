@@ -1,5 +1,5 @@
 <?php
-include '../../utils/Example.utils.php';
+include dirname(__DIR__, 2) . '/utils/Example.utils.php';
 $enemies = getEnemyStats();
 ?>
 
@@ -29,7 +29,7 @@ $enemies = getEnemyStats();
         </section>
 
         <div style="margin-top: 2rem;">
-            <a href="../../index.php" style="display:inline-block;padding:0.6rem 1.2rem;background:#f0d070;color:#000;text-decoration:none;border-radius:8px;">
+            <a href="/index.php" style="display:inline-block;padding:0.6rem 1.2rem;background:#f0d070;color:#000;text-decoration:none;border-radius:8px;">
                 ⬅ Back to Homepage
             </a>
         </div>

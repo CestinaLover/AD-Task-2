@@ -15,11 +15,18 @@ function getEnemyStats() {
 
 // Formats enemy data as HTML
 function renderEnemies($enemies) {
+    $images = [
+        "Hollow Soldier" => "hollow.png",
+        "Black Knight" => "black_knight.png",
+        "Ornstein" => "ornstein.png"
+    ];
+
     $output = "<div class='enemy-list'>";
     foreach ($enemies as $name => $stats) {
+        $imgPath = "../../assets/img/" . $images[$name];
         $output .= "<div class='enemy'>";
         $output .= "<h3>$name</h3>";
-        $output .= "<ul>";
+        $output .= "<img src='$imgPath' alt='$name' style='max-width:150px;margin-bottom:10px;'><ul>";
         foreach ($stats as $stat => $value) {
             $output .= "<li><strong>$stat:</strong> $value</li>";
         }
@@ -28,4 +35,3 @@ function renderEnemies($enemies) {
     $output .= "</div>";
     return $output;
 }
-?>

@@ -13,6 +13,8 @@
         <a href="page/ExamplePage/index.php" style="display:inline-block;margin-top:2rem;padding:0.75rem 1.5rem;background:#e38b29;color:black;text-decoration:none;border-radius:8px;">
             Enter the Programming Realm
         </a>
+        <br><br>
+<img src="assets/img/jemoepeps.png" style="max-width:300px; margin-top:1rem;">
     </div>
 </body>
 </html>
