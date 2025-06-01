@@ -92,6 +92,7 @@ AD-Task-2
 │  ├─ css
 │  │  └─ example.css
 │  ├─ img
+│  │  ├─ jemoepeps.png
 │  │  └─ nyebe_white.png
 │  └─ js
 │     └─ example.js
@@ -140,4 +141,5 @@ AD-Task-2
 | CODEPEN | A site for code lovers                | https://codepen.io/trending              |
 | NONE    | NONE                                  | NONE                                     |
 | NONE    | NONE                                  | NONE                                     |
+
 
