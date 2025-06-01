@@ -1,10 +1,8 @@
 <?php
-// Returns an indexed array of weapons
 function getWeapons() {
     return ["Zweihander", "Claymore", "Estoc", "Moonlight Greatsword"];
 }
 
-// Returns an associative array (dictionary) of enemy stats
 function getEnemyStats() {
     return [
         "Hollow Soldier" => ["HP" => 150, "Stamina" => 50, "Damage" => 20],
@@ -13,7 +11,6 @@ function getEnemyStats() {
     ];
 }
 
-// Formats enemy data as HTML
 function renderEnemies($enemies) {
     $images = [
         "Hollow Soldier" => "hollow.png",
@@ -26,7 +23,7 @@ function renderEnemies($enemies) {
         $imgPath = "../../assets/img/" . $images[$name];
         $output .= "<div class='enemy'>";
         $output .= "<h3>$name</h3>";
-        $output .= "<img src='$imgPath' alt='$name' style='max-width:150px;margin-bottom:10px;'><ul>";
+        $output .= "<img src='$imgPath' alt='$name' style='max-width:250px;margin-bottom:10px;'><ul>";
         foreach ($stats as $stat => $value) {
             $output .= "<li><strong>$stat:</strong> $value</li>";
         }

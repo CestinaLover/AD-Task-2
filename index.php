@@ -14,7 +14,7 @@
             Enter the Programming Realm
         </a>
         <br><br>
-<img src="assets/img/jemoepeps.png" style="max-width:300px; margin-top:1rem;">
+<img src="assets/img/sword.png" style="max-width:300px; margin-top:1rem;">
     </div>
 </body>
 </html>

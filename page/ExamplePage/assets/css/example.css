@@ -1,5 +1,6 @@
 body {
-    background: url('../../../assets/img/bg.jpg') no-repeat center center fixed;
+    background-color: #121212;
+    background: url('/assets/img/bg.gif') no-repeat center center fixed;
     background-size: cover;
     color: #e0e0e0;
     font-family: 'Cinzel', serif;
